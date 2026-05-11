@@ -21,7 +21,7 @@ export default function Navbar(){
                 </Link>
                 {esPasajero &&(
                     <Link to="/habitaciones" className="hover:text-ambar-400 transition-colors">
-                        Habitaciones
+                        habitaciones
                     </Link>
                 )}
                 {esAdmin &&(
